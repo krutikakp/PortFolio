@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Krutika Patil</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="footer.css">
+  </head>
+  <body>
+    <div class="video-container">
+      <video autoplay loop muted>
+        <source src="bgvideo1.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="content">
+      <div class="head1">
+        <p>Welcome to my</p>
+        <h2>portfolio</h2>
+      </div>
+    </div>
+    <div class="container">
+      <div class="scroll-down-arrow" onclick="scrollToNextPage()">
+        <span></span>
+      </div>
+    </div>
+    <div class="home">
+      <nav class="navbar">
+        <div class="nav-container">
+          <span class="brand"
+            ><a href="index/.html">Krutika<br />Patil</a></span
+          >
+
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="profile.html">Profile</a></li>
+
+            <li><a href="contact.html" id="contactLink">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="hero">
+        <div class="glass-container">
+          <div class="glass-pane"></div>
+
+          <p>
+            Hi there! I'm a passionate student pursuing my Bachelors in Computer
+            Engineering. As a budding Web Designer, Web Developer, and UI/UX
+            Designer, I'm dedicated to honing my skills and bringing creative
+            ideas to life.
+          </p>
+        </div>
+      </div>
+      <div class="banner">My Work</div>
+      <div class="work-container">
+        <p>1. Website Featuring Maharashtrian Cuisine</p>
+        <img src="./img/Cooking_site.png" onclick="redirectToLink('https://github.com/krutikakp/Recipe_Website')" />
+       <p>2. Website Design</p>
+        <img
+          src="./img/GFG.png"
+          onclick="redirectToLink('https://www.figma.com/community/file/1351467230670872236/gfgxpccoer')"
+        />
+      </div>
+
+      <footer>
+        <p>Contact me: <a href="mailto:krutikakp233@gmail.com" style="color: black; text-decoration: none;">krutikakp233@gmail.com</a></p>
+      <p>&copy; 2024 Krutika Portfolio. All rights reserved.</p>
+     
+    </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
